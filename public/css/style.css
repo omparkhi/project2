@@ -1,0 +1,136 @@
+body{
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.container {
+    flex: 1;
+  }
+.navbar {
+    height: 5rem;
+    background-color: rgb(255, 249, 249);
+ }
+
+.fa-compass-drafting {
+    color: #f81010;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #1b1b1b !important;
+
+}
+.nav1:hover {
+    color: white !important;
+    transform:scale(0.97)
+}
+
+/* Footer */
+.f-info {
+    text-align: center;
+    height: 7rem;
+    display: flex;
+    background-color: #e7e7e7;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.f-info-links, .f-info-socials, .f-info-brands {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-left: 1.1rem;
+    margin-right: 1.2rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #1b1b1b;
+    margin-left: 1.1rem;
+    margin-right: 1.05rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+.f-info-socials i:hover {
+    transform: scale(1.2);
+}
+
+/* Cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    height: 15rem;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 1rem !important;
+}
+.listing-img:hover {
+    transform: scale(2);
+}
+.card-body {
+    padding: 0 !important;
+}
+.card-head {
+    border: none;
+}
+.card-title {
+    font-weight: bold !important;
+    
+}
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.3;
+    background-color: #e7e7e7;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.btns {
+    background-color: #f81010 !important;
+    border: none !important;
+}
+
+/* Show Page */
+/* .show-img {
+    
+} */
+
+.both-btn {
+    display: flex;
+}
+
+.edit_img {
+    width: 200px;
+    height: 150px;
+}
+
+.icon_animate {
+    animation: iconSpin 3s linear 1s infinite;
+}
+
+@keyframes iconSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(-50deg);
+    }
+}
